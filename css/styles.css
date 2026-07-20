@@ -1730,6 +1730,20 @@ button {
   text-align: center;
 }
 
+.footer-site-link {
+  display: inline-block;
+  color: rgba(252, 252, 239, 0.45);
+  font-size: 0.65rem;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  transition: color 0.25s ease, opacity 0.25s ease;
+}
+.footer-site-link:hover {
+  color: rgba(252, 252, 239, 0.85);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .footer-icons {
   display: flex;
   justify-content: flex-end;
