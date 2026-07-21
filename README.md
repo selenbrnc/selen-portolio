@@ -2,7 +2,7 @@
 
 Personal portfolio website of **Selen Birincioglu** — Industrial Engineering student, digital creator, and creative problem solver.
 
-🌐 **Live:** [selenbirincioglu.netlify.app](https://selenbirincioglu.netlify.app/)
+🌐 **Live:** [selenbirincioglu.com.tr](https://selenbirincioglu.com.tr/)
 
 ---
 
