@@ -31,6 +31,7 @@
         <a href="#journey" data-en="Journey" data-tr="Yolculuğum">Journey</a>
         <a href="#work" data-en="Projects & Work" data-tr="Projeler & İşler">Projects & Work</a>
         <a href="#services" data-en="What I Can Do For You" data-tr="Sizin İçin Yapabileceklerim">What I Can Do For You</a>
+        <a href="#feedback" data-en="Feedback" data-tr="Geri Bildirim">Feedback</a>
         <a href="#contact" data-en="Connect" data-tr="İletişim">Connect</a>
       </nav>
 
@@ -67,18 +68,20 @@
       </div>
     </div>
 
-    <div class="mobile-menu" id="mobile-menu" hidden>
-      <nav aria-label="Mobile navigation">
-        <a href="#journey" data-en="My Journey" data-tr="Yolculuğum">My Journey</a>
-        <a href="#work" data-en="Things I'm Proud Of" data-tr="Gurur Duyduklarım">Things I'm Proud Of</a>
-        <a href="#services" data-en="What I Can Do" data-tr="Neler Yapabilirim">What I Can Do</a>
-        <a href="#contact" data-en="Let's Connect" data-tr="İletişime Geç">Let's Connect</a>
-      </nav>
-      <p data-en="Engineering logic. Creative instinct." data-tr="Mühendislik mantığı. Yaratıcı içgüdü.">
-        Engineering logic. Creative instinct.
-      </p>
-    </div>
   </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav aria-label="Mobile navigation">
+      <a href="#journey" data-en="My Journey" data-tr="Yolculuğum">My Journey</a>
+      <a href="#work" data-en="Things I'm Proud Of" data-tr="Gurur Duyduklarım">Things I'm Proud Of</a>
+      <a href="#services" data-en="What I Can Do" data-tr="Neler Yapabilirim">What I Can Do</a>
+      <a href="#feedback" data-en="Feedback" data-tr="Geri Bildirim">Feedback</a>
+      <a href="#contact" data-en="Let's Connect" data-tr="İletişime Geç">Let's Connect</a>
+    </nav>
+    <p data-en="Engineering logic. Creative instinct." data-tr="Mühendislik mantığı. Yaratıcı içgüdü.">
+      Engineering logic. Creative instinct.
+    </p>
+  </div>
 
   <main id="main-content">
     <!-- HERO -->
@@ -498,11 +501,167 @@
       </div>
     </section>
 
+    <!-- FEEDBACK -->
+    <section class="section feedback-section" id="feedback">
+      <div class="feedback-orbit feedback-orbit-one" aria-hidden="true"></div>
+      <div class="feedback-orbit feedback-orbit-two" aria-hidden="true"></div>
+
+      <div class="container feedback-shell">
+        <div class="feedback-copy reveal">
+          <p class="section-kicker">04 — <span data-en="Feedback" data-tr="Geri Bildirim">Feedback</span></p>
+          <h2 data-en="Your perspective helps me create better experiences." data-tr="Görüşleriniz daha iyi deneyimler üretmeme yardımcı oluyor.">
+            Your perspective helps me create better experiences.
+          </h2>
+          <p data-en="Share what worked, what could be clearer, or what would make this portfolio more useful. Thoughtful feedback helps me improve both the design and the experience." data-tr="Nelerin iyi çalıştığını, nelerin daha net olabileceğini veya bu portfolyoyu neyin daha kullanışlı hâle getireceğini paylaşın. Düşünceli geri bildirimler hem tasarımı hem de deneyimi geliştirmeme yardımcı olur.">
+            Share what worked, what could be clearer, or what would make this portfolio more useful. Thoughtful feedback helps me improve both the design and the experience.
+          </p>
+
+          <div class="feedback-note" aria-hidden="true">
+            <span>01</span>
+            <i></i>
+            <strong data-en="Observe" data-tr="Gözlemle">Observe</strong>
+            <span>02</span>
+            <i></i>
+            <strong data-en="Reflect" data-tr="Değerlendir">Reflect</strong>
+            <span>03</span>
+            <i></i>
+            <strong data-en="Improve" data-tr="Geliştir">Improve</strong>
+          </div>
+        </div>
+
+        <div class="feedback-form-wrap reveal reveal-delay-1">
+          <div class="form-topline">
+            <span data-en="Portfolio feedback" data-tr="Portfolyo geri bildirimi">Portfolio feedback</span>
+            <span class="feedback-badge">
+              <i aria-hidden="true">✦</i>
+              <span data-en="Takes about a minute" data-tr="Yaklaşık bir dakika">Takes about a minute</span>
+            </span>
+          </div>
+
+          <form
+            class="feedback-form"
+            id="feedback-form"
+            action="https://formspree.io/f/xvzerray"
+            method="POST"
+          >
+            <input type="hidden" name="_subject" value="New portfolio feedback">
+            <input type="hidden" name="form_type" value="Portfolio feedback">
+            <input type="text" name="_gotcha" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <fieldset class="rating-fieldset">
+              <legend data-en="How would you rate the experience?" data-tr="Deneyimi nasıl değerlendirirsiniz?">
+                How would you rate the experience?
+              </legend>
+
+              <div class="rating-group">
+                <label class="rating-option">
+                  <input type="radio" name="rating" value="1" required>
+                  <span aria-hidden="true">1</span>
+                  <small data-en="Needs work" data-tr="Geliştirilmeli">Needs work</small>
+                </label>
+
+                <label class="rating-option">
+                  <input type="radio" name="rating" value="2">
+                  <span aria-hidden="true">2</span>
+                  <small data-en="Fair" data-tr="Orta">Fair</small>
+                </label>
+
+                <label class="rating-option">
+                  <input type="radio" name="rating" value="3">
+                  <span aria-hidden="true">3</span>
+                  <small data-en="Good" data-tr="İyi">Good</small>
+                </label>
+
+                <label class="rating-option">
+                  <input type="radio" name="rating" value="4">
+                  <span aria-hidden="true">4</span>
+                  <small data-en="Great" data-tr="Çok iyi">Great</small>
+                </label>
+
+                <label class="rating-option">
+                  <input type="radio" name="rating" value="5">
+                  <span aria-hidden="true">5</span>
+                  <small data-en="Excellent" data-tr="Mükemmel">Excellent</small>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="form-field">
+              <label for="feedback-category" data-en="What is your feedback about?" data-tr="Geri bildiriminiz hangi konuyla ilgili?">
+                What is your feedback about?
+              </label>
+              <select id="feedback-category" name="feedback_category" required>
+                <option value="" selected disabled data-en="Choose a category" data-tr="Bir kategori seçin">Choose a category</option>
+                <option value="Design" data-en="Design" data-tr="Tasarım">Design</option>
+                <option value="Usability" data-en="Usability" data-tr="Kullanılabilirlik">Usability</option>
+                <option value="Content" data-en="Content" data-tr="İçerik">Content</option>
+                <option value="Overall experience" data-en="Overall experience" data-tr="Genel deneyim">Overall experience</option>
+                <option value="Other" data-en="Other" data-tr="Diğer">Other</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="feedback-message" data-en="What should I know?" data-tr="Bilmem gereken nedir?">
+                What should I know?
+              </label>
+              <textarea
+                id="feedback-message"
+                name="feedback"
+                rows="6"
+                required
+                placeholder="Tell me what stood out or what could be improved..."
+                data-placeholder-en="Tell me what stood out or what could be improved..."
+                data-placeholder-tr="Neyin öne çıktığını veya nelerin geliştirilebileceğini paylaşın..."
+              ></textarea>
+            </div>
+
+            <div class="form-row">
+              <div class="form-field">
+                <label for="feedback-name" data-en="Name (optional)" data-tr="İsim (isteğe bağlı)">Name (optional)</label>
+                <input
+                  id="feedback-name"
+                  name="feedback_name"
+                  type="text"
+                  autocomplete="name"
+                  placeholder="Your name"
+                  data-placeholder-en="Your name"
+                  data-placeholder-tr="Adınız"
+                >
+              </div>
+
+              <div class="form-field">
+                <label for="feedback-email" data-en="Email (optional)" data-tr="E-posta (isteğe bağlı)">Email (optional)</label>
+                <input
+                  id="feedback-email"
+                  name="feedback_email"
+                  type="email"
+                  autocomplete="email"
+                  placeholder="you@example.com"
+                  data-placeholder-en="you@example.com"
+                  data-placeholder-tr="siz@ornek.com"
+                >
+              </div>
+            </div>
+
+            <button class="button button-dark button-submit" type="submit">
+              <span data-en="Send Feedback" data-tr="Geri Bildirim Gönder">Send Feedback</span>
+              <span aria-hidden="true">↗</span>
+            </button>
+
+            <p class="form-note" data-en="Your feedback is sent privately and will not be published." data-tr="Geri bildiriminiz özel olarak iletilir ve yayınlanmaz.">
+              Your feedback is sent privately and will not be published.
+            </p>
+            <p class="form-status" id="feedback-form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
     <!-- CONTACT -->
     <section class="section contact-section" id="contact">
       <div class="container contact-shell">
         <div class="contact-copy reveal">
-          <p class="section-kicker">04 — <span data-en="Let's Connect" data-tr="İletişime Geçelim">Let's Connect</span></p>
+          <p class="section-kicker">05 — <span data-en="Let's Connect" data-tr="İletişime Geçelim">Let's Connect</span></p>
           <h2>
             <span data-en="Have an idea?" data-tr="Bir fikriniz mi var?">Have an idea?</span>
             <em data-en="Let's make it clear, useful, and unforgettable together." data-tr="Birlikte onu net, kullanışlı ve unutulmaz hâle getirelim.">Let's make it clear, useful, and unforgettable together.</em>
