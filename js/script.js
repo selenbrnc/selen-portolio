@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- saved from url=(0097)https://chatgpt.com/g/g-p-6994c876a57c81919fac152bfc197239/c/6a5cad91-0cec-83e8-9c59-6e1a5a018fdb -->
 <html lang="tr-TR" data-build="prod-7fc3ff5bcd034a91578eeeb94258b0210e7ff3b2" data-seq="8494897" data-contrast="default" dir="ltr" class="light" data-chat-theme="purple" style="color-scheme: light; --cot-shimmer-duration: 1400ms;" data-ds-color-theme-update=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>.ͼd {background-color: var(--gray-0); color: var(--gray-950);}
 .ͼd .cm-content {caret-color: var(--gray-950);}
 .ͼd .cm-cursor, .ͼd .cm-dropCursor {border-left-color: var(--gray-950);}
